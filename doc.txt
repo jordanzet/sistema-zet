@@ -1,0 +1,19 @@
+El sistema dispone de una base de datos para los siguientes conceptos:  
+
+‐Artículos  
+‐Servicios  
+‐Proveedores  
+‐Marcas y Modelos  
+‐Familias o categorías de productos  
+‐Bodegas  
+‐Secciones y Estantes (Ubicaciones físicas de Productos en Bodega)  
+‐Tipo de Monedas  
+‐Usuarios y control de accesos (*)   
+‐ Administración de áreas y control de jefaturas (*)  
+
+
+
+Login
+	empresa = raw_input()
+	usuario = raw_input()
+	password = raw_input()
