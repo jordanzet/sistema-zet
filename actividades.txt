@@ -1,0 +1,182 @@
+==============
+| EXTRACCION |
+==============
+
+Admin Productos
+	Compra Producto Nuevo
+		Sec.Compra Producto Nuevo			
+			admin : Administrador
+			c1 : Compra
+			p1 : Producto
+
+			1 : Compra() #El administrador al comprar registra ésta en el sistema
+			2 : Producto() #No existia el producto por lo tanto se crea
+
+Admin Deudores
+	Juanito Abona
+		Sec.Juanito Abona
+			admin : Administrador
+			1 : listarDeudores()
+			2 : selecDeudor()
+			3 : modificarDeuda()
+				# Juanito viene a pagar lo que debe:
+				1.Se listan todos para ver a juanito 		
+				2.Se selecciona a juanito 		
+				3.A juanito se le descuenta lo que abono
+
+Generar Informes
+	Informe de Stock
+		Sec.Informe de Stock
+			admin : Administrador
+			prod : Producto #Se necesita saber el estado de los stocks
+			1 : stockcigarrillos() #Se pide el stock de cigarrillos
+			2 : stocktarjetas() #el de tarjetas
+			3 : informecelcarga() #el de Celcarga
+			4 : listarProductos() #y el de productos escasos, aqui se ordena la salida por cantidad ascendente y se limitan a un numero
+
+Realizar Pedidos
+	Pedido de torta
+		Sec. Pedido Torta
+			cliente1 : Cliente
+			torta : Producto
+			p1 : Pedido
+			1 : listarProductos() #El Cliente ve todos los productos que puede pedir
+				#Despues selecciona el/los productos que pedira
+			3 : Pedido() #Despues de revisar se confirma el pedido
+
+Ver Pedidos
+	Procesar Pedido Torta
+		Sec. Procesar Torta
+
+			Empleado
+			p1 : Pedido
+			v1 : Venta
+
+			1 : listarPedidos()
+			2 : selecPedido()
+			3 : procesarPedido()
+			4 : terminarPedido()
+			5 : Venta()
+	
+Vender
+	Fiar LuckyStrike
+		Sec. Fiar Lucky
+							
+			: Empleado
+			LuckyStrike : Producto
+			v2 : Venta
+			juanito : Deudor
+
+			1 : producto()
+			2 : Venta()
+			3 : selecDeudor()
+			4 : modificarDeuda()
+			5 : generarBoleta()
+
+
+
+=======
+ACTORES
+=======
+Vendedor
+supervisor de Ventas
+Cajero
+Cliente
+Almacenero
+
+*** Se trabajara como si fuera una farmacia ***
+
+
+====================
+DIAGRAMA DE PAQUETES
+====================
+
+modelo
+	tienda
+		__init__.py
+		tienda.py (nueva tienda donde vender productos)
+		almacen.py (nuevo almacen para guardar los productos)
+		ubicacion.py
+		proveedor.py
+		stock_almacen.py
+
+	producto
+		__init__.py
+		producto.py
+		producto_perecible.py
+		tipo_unidad_producto.py
+		grupo_producto.py
+		marca.py
+		
+	usuario
+		__init__.py
+		usuario_web.py
+		administrador.py
+		empleado.py
+		cajero.py
+		cliente.py
+	
+	caja.py
+	compra.py
+	deudor.py
+	venta.py
+	boleta.py
+	factura.py
+	merma.py
+	pedido.py
+	__init__.py
+
+vistas 
+	reporte
+		__init__.py
+		reporte.py
+
+	consultas.py
+	reportes.py
+	ventas.py
+	
+	tiendas.py
+	productos.py
+	
+	pedidos.py
+	compras.py
+	
+	recibos
+		boletas.py
+		facturas.py
+
+
+controlador
+	permisos
+		__init__.py
+		admin.py
+		usuario.py
+		supervisor.py
+		superadmin.py
+		usuario_web.py
+		empleado.py
+		cajero.py
+		cliente.py
+
+	administracion
+		__init__.py
+		tienda.py
+		productos.py
+		empleados.py
+		inventario.py
+		stock.py
+		logistica.py
+
+	reporte
+		__init__.py
+		productos.py
+		clientes.py
+		ventas.py
+		compras.py
+
+	bd
+		__init__.py	
+		producto.py
+		usuario.py
+		venta.py
+

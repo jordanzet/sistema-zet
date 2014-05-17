@@ -1,6 +1,6 @@
 class Producto():
 
-	def __init__(self, codigo, descripcion, precio, stock):
+	def __init__(self, codigo,nombre, descripcion, precio, stock, tipo):
 		self.codigo = codigo
 		self.descripcion = descripcion
 		self.precio = precio 
@@ -32,4 +32,19 @@ class Producto():
 
 	def establecer_stock():
 		pass
-	
+		
+	def producto(codigo):
+		pass
+
+	def listarProductos(tipo):
+		pass
+
+	def stockcigarrillos(tipostock):
+		pass
+
+	def stocktarjetas():
+		pass
+
+	def informecelcarga():
+		pass
+

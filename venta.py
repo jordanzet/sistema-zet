@@ -1,7 +1,7 @@
 
 class Venta():
 
-	def __init__(self, codigo, numero_de_boleta, rut_empleado, detalle, total):
+	def __init__(self, codigo, numero_de_boleta, fecha, rut_empleado, detalle, total):
 		self.codigo = codigo #string
 		self.numero_de_boleta = numero_de_boleta #string
 		self.rut_empleado = rut_empleado #string
@@ -36,6 +36,9 @@ class Venta():
 		pass
 
 	def monto_total():
+		pass
+
+	def generar_boleta():
 		pass
 
 		

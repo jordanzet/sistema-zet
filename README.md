@@ -50,3 +50,49 @@ Cajero
 		Será responsable de la devolución del ticket, que emite el sistema al facturar alguna mesa.
 		Estarán en continuo contacto con los mozos, pero hay que aclarar que estos no son considerados como actores ya que sol registran los pedidos de forma manual.
 		
+Determiinar si el producto es perecicle o si  tiene una fecha de vencimiento
+
+Registrar equipos
+Registrar software
+Reg. licencias
+Registrar usuarios
+Dar de baja usuario
+Dar de baja equipo
+Asignar licencias a PC
+Quitar licencias a PC
+Asignar PC a Usuario
+Desasignar PC a Usuario
+Gestionar stock de Licencias
+Emitir reportes
+
+
+
+Administrador
+	registrar productos
+	registar fecha de vencimiento de producto
+	registar usuarios(empleados)
+	gestionar stock de productos
+
+
+Gerencia
+	emitir reporte al gerente
+Usuario
+Cliente
+
+
+
+
+MODULOS A USAR
+==============
+
+
+INSTALACION DE LIBRERIAS
+========================
+
+sudo apt-get install python-mysqldb
+
+O
+
+pip install -r requerimientos.txt
+
+
