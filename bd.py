@@ -7,7 +7,10 @@ cursor = coneccion.cursor()
 try:
 	cursor.execute('CREATE TABLE productos (id INT AUTO_INCREMENT PRIMARY KEY, nombre VARCHAR(45), descripcion TEXT, precio INT )')
 except :
-	pass
+	pass   
+
+
+	
 
 cursor.execute('INSERT INTO productos VALUES (NULL,%s, %s, %s, %s)', ('ariel', 'lejia',3))
 coneccion.commit()
