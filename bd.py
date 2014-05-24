@@ -10,7 +10,6 @@ except :
 	pass   
 
 
-	
 
 cursor.execute('INSERT INTO productos VALUES (NULL,%s, %s, %s, %s)', ('ariel', 'lejia',3))
 coneccion.commit()

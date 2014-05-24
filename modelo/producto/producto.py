@@ -1,10 +1,12 @@
 class Producto():
 
-	def __init__(self, codigo,nombre, descripcion, precio, stock, tipo):
+	def __init__(self, codigo,nombre, precio, stock, tipo, vencimiento):
 		self.codigo = codigo
-		self.descripcion = descripcion
+		self.nombre = nombre
 		self.precio = precio 
 		self.stock = stock
+		self.tipo = tipo 
+		self.vencimiento = vencimiento
 
 	def mod_stock():
 		pass
@@ -13,12 +15,6 @@ class Producto():
 		pass
 
 	def establecer_codigo(c):
-		pass
-
-	def obtener_detalle():
-		pass
-
-	def establecer_detalle():
 		pass
 
 	def obtener_precio():

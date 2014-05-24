@@ -1,8 +1,5 @@
+from  modelo.usuario.usuario import Usuario
 
-class Administrador():
+class Administrador(Usuario):
 
-	def __init__(self,rut,nombre):
-		pass
-
-
-
+	def __init__(self):

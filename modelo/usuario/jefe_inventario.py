@@ -1,7 +1,6 @@
 from  modelo.usuario.usuario import Usuario
 
-class Cajero(Usuario):
+class JefeInventario(Usuario):
 
 	def __init__(self,):
 		pass
-
