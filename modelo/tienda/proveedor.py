@@ -9,4 +9,5 @@ class Proveedor:
 		self.departamento = departamento
 		self.provincia = provincia
 		self.distrito = distrito
+		pass
 

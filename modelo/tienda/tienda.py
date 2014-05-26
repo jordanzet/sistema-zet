@@ -1,6 +1,8 @@
 
 class Tienda: #tiendas en varios distritos
 
-	def __init__(self, ubicacion, codigo_de_tienda):
+	def __init__(self, ubicacion, codigo_de_tienda,nombre):
 	self.ubicacion = ubicacion
 	self.codigo_de_tienda = codigo_de_tienda
+	self.nombre = nombre
+	pass

@@ -1,6 +1,5 @@
 
 class Compra():
-	#jordannoreniegues
 	def __init__(self,numeroFactura,rucProveedor,fecha,detalle,neto,IGV,total):
 		self.numeroFactura = numeroFactura
 		self.rucProveedor = rucProveedor
@@ -9,7 +8,7 @@ class Compra():
 		self.neto = neto
 		self.IGV = IGV
 		self.total = total
-		pass
+		
 		
 	def	selecCompra()
 
