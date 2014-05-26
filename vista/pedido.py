@@ -1,38 +1,16 @@
+from Tkinter import *
 
-class Pedido():
-	def __init__(self, codigo, fecha, cliente, detalle, fecha_entrega,total, listocheck):
-		self.codigo = codigo
-		self.fecha = fecha
-		self.cliente = cliente
- 		self.detalle = detalle
-		self.fecha_entrega = fecha_entrega
-		self.total = total
-		self.listocheck = listocheck
+class PedidoView:
 
-	def total_pedido():
+	def __init__(self, master):
+		frame = Frame(master)
+		frame.pack()
+		self.pedido = Button(frame, text="Pedido", command=self.pedir)
+		self.pedido.pack(side=LEFT)
+	
+	def pedir(self):
+		print "Que quiere comprar??"
 
-	def cambiar_estado():
-
-	def seleccionar_pedido():
-
-	def listar_pedidos():
-
-	def ver_pedido():
-
-	def	mostrar_pedidos_pendientes():
-
-	def procesar_pedido():
-	def terminar_pedido():
-	def generar_venta():
-
-	def realizar_pedido():
-		pass
-
-	def ver_producto():
-		pass
-
-	def seleccionar_producto():
-		pass
-
-	def generar_pedido():
-		pass
+root = Tk()
+vista_producto = PedidoView(root)
+root.mainloop()
