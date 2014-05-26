@@ -1,19 +1,5 @@
 class Pedido():
-<<<<<<< HEAD
-	def __init__(self, codigo, fecha, cliente, detalle, fechaentrega, listocheck):
-		self.codigo = codigo
-		self.fecha = fecha
-		self.cliente = cliente
-		self.detalle = detalle
-		self.fechaentrega = fechaentrega
-		self.listocheck = listocheck
-		pass
-
-	def selecPedido():
-		pass
-=======
->>>>>>> 986dcd6bc8de6f032b1284e65de2a30d200db4b9
-
+	
 	def __init__(self, codigo, fecha, cliente, detalle, fechaentrega, listocheck):
 		self.codigo = codigo
 		self.fecha = fecha

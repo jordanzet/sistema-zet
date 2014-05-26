@@ -4,7 +4,6 @@ import MySQLdb
  
 # Establecemos la conexión con la base de datos
 bd = MySQLdb.connect("localhost","usuarioadmin","prueba123","sistemazet_db" )
- 
 # Preparamos el cursor que nos va a ayudar a realizar las operaciones con la base de datos
 cursor = bd.cursor()
  
@@ -18,8 +17,3 @@ print "Versión Base de Datos : %s " % data
  
 # Nos desconectamos de la base de datos
 bd.close()
-
-
-
-
-
