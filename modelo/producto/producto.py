@@ -7,6 +7,8 @@ class Producto():
 		self.stock = stock
 		self.tipo = tipo 
 		self.vencimiento = vencimiento
+	
+	def validar_nombre(self):
 
 	def mod_stock():
 		pass
