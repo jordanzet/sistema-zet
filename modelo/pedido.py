@@ -9,7 +9,24 @@ class Pedido():
 		self.total = total
 		self.listocheck = listocheck
 
+	def get_codigo(self):
+		return self.codigo
+	def get_fecha(self):
+		return self.fecha
+	def get_cliente(self):
+		return self.cliente
+	def get_detalle(self):
+		return self.detalle
+	def get_fechaentrega(self):
+		return self.fechaentrega
+	def get_total(self):
+		return self.total
+	def get_listocheck(self):
+		return self.listocheck
+
+
 	def seleccionar_pedido():pass
+
 	def listar_pedidos():pass
 	def procesar_pedido():pass
 	def terminar_pedido ():pass

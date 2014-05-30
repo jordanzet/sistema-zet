@@ -13,11 +13,29 @@ class Producto():
 	def mod_stock():
 		pass
 
-	def get_codigo(self):return self.codigo
+	def get_codigo(self):
+		return self.codigo
 	def establecer_codigo(c):pass
-	def get_precio(self):return self.precio
+	def get_precio(self):
+		return self.precio
 	def establecer_precio():pass
-	def get_stock(self):return self.stock
+	def get_stock(self):
+		return self.stock
+
+	def set_codigo(self,valor):
+		self.codigo = valor
+	def set_nombre(self,valor):
+		self.nombre = valor	
+	def set_precio(self,valor):
+		self.precio = valor
+	def set_stock(self,valor):
+		self.stock = valor
+	def set_tipo(self,valor):
+		self.tipo = valor
+	def set_vencimiento(self,valor):
+		self.vencimiento = valor
+
+
 	def establecer_stock():pass
 	def producto(codigo):pass
 	def listarProductos(tipo):pass

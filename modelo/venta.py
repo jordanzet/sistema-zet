@@ -5,5 +5,16 @@ class Venta():
 		self.fecha = fecha
 		self.detalle = detalle
 		self.total = total
-		pass
+	
+	def get_codigo_venta(self):
+		return self.codigo_venta
+	def get_numero_comprobante(self):
+		return self.numero_comprobante
+	def get_fecha(self):
+		return self.fecha
+	def get_detalle(self):
+		return self.detalle
+	def get_total(self):
+		return self.total
+
 		

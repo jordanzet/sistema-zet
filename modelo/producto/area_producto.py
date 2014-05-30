@@ -11,3 +11,4 @@ class Area_Producto:
 		return self.codigo_area
 
 
+
