@@ -7,9 +7,9 @@ class MiVentana(QtGui.QWidget):
         self.button = QtGui.QPushButton("Hola",self)
         self.connect(self.button, QtCore.SIGNAL("clicked()"), self.say_hello)
         self.show()
-        
+
     def say_hello(self,**kwargs):
-        print "hola mundo!"
+        print "Bienvenido al sistema!"
 
 app = QtGui.QApplication(sys.argv)
 
@@ -18,5 +18,7 @@ v.resize(1200, 600)
 v.setWindowTitle('Sistema de Inventario Zet')
 v.show()
 app.exec_()
+
+
 
 
