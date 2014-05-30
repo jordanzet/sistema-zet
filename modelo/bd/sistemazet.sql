@@ -166,7 +166,9 @@ INSERT INTO `detalle_factura` (`cod_factura`, `cod_articulo`, `cantidad`, `total
 
 --
 -- Estructura de tabla para la tabla `devolucion`
---
+
+--DEVOLUCIONNN?????? SI NO VA A VER DEVOLUCIONNNN
+--Y PORQUEE AHI DETALLE FACTURA Y FACTURA???????
 
 CREATE TABLE IF NOT EXISTS `devolucion` (
   `cod_detallefactura` varchar(20) NOT NULL,
@@ -194,7 +196,7 @@ INSERT INTO `devolucion` (`cod_detallefactura`, `cod_detallearticulo`, `Motivo`,
 
 CREATE TABLE IF NOT EXISTS `factura` (
   `Nnm_factura` varchar(20) NOT NULL,
-  `cod_cliente` varchar(15) NOT NULL,
+  `Nom_cliente` varchar(15) NOT NULL,
   `Nombre_empleado` varchar(30) NOT NULL,
   `Fecha_facturacion` varchar(15) NOT NULL,
   `cod_formapago` int(11) NOT NULL,

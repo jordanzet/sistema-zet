@@ -8,7 +8,7 @@ class Compra():
 		self.neto = neto
 		self.IGV = IGV
 		self.total = total
-		
+
 		
 	def	selecCompra()
 
