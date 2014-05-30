@@ -9,5 +9,15 @@ class Proveedor:
 		self.departamento = departamento
 		self.provincia = provincia
 		self.distrito = distrito
-		pass
+		
+	def get_codigo_proveedor(self):
+		return self.codigo_proveedor
+	def get_nombre_proveedor(self):
+		return self.nombre_proveedor
+	def get_direccion(self):
+		return self.direccion
+	def get_telefono(self):
+		return self.telefono
+	def get_departamento(self):
+		return self.departamento
 
