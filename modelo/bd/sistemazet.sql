@@ -4,17 +4,18 @@ SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
 -- Estructura de tabla para la tabla `articulo`
 --
 
-CREATE TABLE IF NOT EXISTS `articulo` (
-  `id_articulo` int(11) NOT NULL AUTO_INCREMENT,
-  `descripcion` varchar(30) NOT NULL,
-  `precio_venta` int(11) NOT NULL,
-  `precio_costo` int(11) NOT NULL,
-  `stock` int(11) NOT NULL,
-  `cod_tipo_articulo` int(11) NOT NULL,
+CREATE TABLE IF NOT EXISTS `Producto` (
+  `id_producto` int(11) NOT NULL AUTO_INCREMENT,
+  `cod_tipo_producto` int(11) NOT NULL 
+  `descripcion` varchar(30) NOT NULL, --nombre del producto y cantidad
+  `cost_producto` int(11) NOT NULL,
+  `vent_producto` int(11) NOT NULL,
+  `stock_producto` int(11) NOT NULL,
+  `cod_tipo_producto` int(11) NOT NULL,
   `cod_proveedor` varchar(20) NOT NULL,
   `fecha_ingreso` varchar(15) NOT NULL,
-  PRIMARY KEY (`id_articulo`),
-  KEY `ref_tipo_articulo_idx` (`cod_tipo_articulo`),
+  PRIMARY KEY (`id_producto`),
+  KEY `ref_tipo_articulo_idx` (`cod_tipo_producto`),
   KEY `ref_prov_art_idx` (`cod_proveedor`)
 ) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=13 ;
 
