@@ -15,6 +15,10 @@ class Producto():
 
 	def get_codigo(self):
 		return self.codigo
+	def get_nombre(self):
+		return self.nombre
+	def get_vencimiento(self):
+		return self.vencimiento
 	def establecer_codigo(c):pass
 	def get_precio(self):
 		return self.precio

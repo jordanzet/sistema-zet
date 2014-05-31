@@ -18,6 +18,18 @@ class Cliente():
 	def get_telefono(self):
 		return self.telefono
 
+	def set_rucCliente(self,valor):
+		self.rucCliente = valor
+	def set_nombre(self,valor):
+		self.nombre = valor
+	def set_direccion(self,valor):
+		self.direccion = valor
+	def set_email(self,valor):
+		self.email = valor
+	def set_telefono(self,valor):
+		self.telefono = valor
+
+
 
 
 
