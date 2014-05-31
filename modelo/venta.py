@@ -17,4 +17,6 @@ class Venta():
 	def get_total(self):
 		return self.total
 
+	def set_codigo_venta(self):
+		return 
 		
