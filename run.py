@@ -1,4 +1,5 @@
-from PyQt4 import QtCore, QtGui
+from PyQt4 import QtCore 
+from PyQt4 import QtGui
 import sys
 
 class MiVentana(QtGui.QWidget):
