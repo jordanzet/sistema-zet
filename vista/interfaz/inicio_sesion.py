@@ -77,11 +77,3 @@ class InicioSesion(QDialog):
 		""" Nos permite salir del sistema """
 		sys.exit(app)
 		
-
-app = QApplication(sys.argv)
-
-base = InicioSesion()
-base.show()
-
-sys.exit(app.exec_())
-

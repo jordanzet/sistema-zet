@@ -39,6 +39,4 @@ class Compra():
 	def set_total(self,valor):
 		self.total = valor
 
-	def	selecCompra()
-
 
