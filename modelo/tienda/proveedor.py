@@ -20,4 +20,25 @@ class Proveedor:
 		return self.telefono
 	def get_departamento(self):
 		return self.departamento
+	def get_provincia():
+		return self.provincia
+	def get_distrito():
+		return self.distrito
+
+
+	def set_codigo_proveedor(self,valor):
+		self.codigo_proveedor = valor
+	def set_nombre_proveedor(self,valor):
+		self.nombre_proveedor
+	def set_direccion(self,valor):
+		self.direccion = valor
+	def set_telefono(self,valor):
+		self.telefono = valor
+	def set_departamento(self,valor):
+		self.departamento = valor
+	def set_provincia(self,valor):
+		self.provincia = valor
+	def set_distrito(self,valor):
+		self.distrito = valor
+
 

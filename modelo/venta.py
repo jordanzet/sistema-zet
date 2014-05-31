@@ -17,6 +17,15 @@ class Venta():
 	def get_total(self):
 		return self.total
 
-	def set_codigo_venta(self):
-		return 
+	def set_codigo_venta(self,valor):
+		self.codigo_venta = valor
+	def set_numero_comprobante(self,valor):
+		self.numero_comprobante = valor
+	def set_fecha(self,valor):
+		self.fecha = valor
+	def set_detalle(self,valor):
+		self.detalle
+	def set_total(self,valor):
+		self.total
 		
+	
