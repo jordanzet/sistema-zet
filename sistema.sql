@@ -6,12 +6,6 @@ apellidos_administrador varchar(30),
 dni_administrador varchar(8),
 primary key(id_administrador,clave_administrador))
 
-create table area_producto(
-cod_area_producto int,
-nombre_area_producto varchar(30),
-primary key(cod_area_producto))
-
-
 create table cajero(
 id_cajero int,
 clave_cajero varchar(15),
