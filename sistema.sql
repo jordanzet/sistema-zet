@@ -1,14 +1,10 @@
-create table area_producto(
-cod_area_producto int,
-nombre_area_producto varchar(30),
-primary key(cod_area_producto))
-
-
-create table area_producto(
-cod_area_producto int,
-nombre_area_producto varchar(30),
-primary key(cod_area_producto))
-
+create table administrador(
+id_administrador int,
+clave_administrador varchar(15),
+nombre_administrador varchar(30),
+apellidos_administrador varchar(30),
+dni_administrador varchar(8),
+primary key(id_administrador,clave_administrador))
 
 create table cajero(
 id_cajero int,
@@ -77,6 +73,11 @@ nombre_proveedor varchar(30),
 direccion_proveedor varchar(30),
 telefono_proveedor int,
 primary key(cod_proveedor))
+
+create table tienda(
+cod_tienda int,
+nombre_tienda varchar(30),
+primary key(cod_tienda));
 
 create table tipo_producto(
 cod_tipo_producto int,
