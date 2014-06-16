@@ -1,11 +1,11 @@
 class Pedido():
 	
-	def __init__(self, codigo, fecha, cliente, detalle, fechaentrega, listocheck):
+	def __init__(self, codigo, fecha, cliente, detalle, fecha_entrega, listocheck):
 		self.codigo = codigo
 		self.fecha = fecha
 		self.cliente = cliente
  		self.detalle = detalle
-		self.fechaentrega = fechaentrega
+		self.fecha_entrega = fecha_entrega
 		self.total = total
 		self.listocheck = listocheck
 

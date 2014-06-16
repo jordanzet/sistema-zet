@@ -1,11 +1,10 @@
 class Cliente():
-	def __init__(self,rucCliente, nombre, direccion, email, telefono):
-		self.rucCliente = rucCliente
+	def __init__(self,ruc_cliente, nombre, direccion, email, telefono):
+		self.ruc_cliente = ruc_cliente
 		self.nombre = nombre
 		self.direccion = direccion
 		self.email = email
 		self.telefono = telefono
-		pass
 	
 	def get_rucCliente(self):
 		return self.rucCliente
@@ -29,10 +28,6 @@ class Cliente():
 	def set_telefono(self,valor):
 		self.telefono = valor
 
-
-
-
-
-	def selecCliente()
+	def selec_cliente()
 
 	
