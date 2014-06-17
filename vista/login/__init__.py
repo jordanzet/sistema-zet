@@ -3,9 +3,9 @@
 from PyQt4 import QtCore, QtGui
 
 
-class Ui_Dialog(object):
+class UserLogin(object):
 
-	def setupUi(self, Dialog):
+	def setupUi(self, Dialog):																																																																																																																																											
 		Dialog.setObjectName("Dialog")
 		Dialog.resize(320, 240)
 		
@@ -43,7 +43,7 @@ def loginuser():
 	import sys
 	app = QtGui.QApplication(sys.argv)
 	Dialog = QtGui.QDialog()
-	ui = Ui_Dialog()
+	ui = UserLogin()
 	ui.setupUi(Dialog)
 	Dialog.show()
 	sys.exit(app.exec_())
